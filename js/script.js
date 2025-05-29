@@ -596,7 +596,7 @@ function initPDFViewer() {
     const closeButton = document.querySelector('#pdfModal .modal-close');
     const pdfViewer = document.getElementById('pdfViewer');
     const pdfFallback = document.querySelector('.pdf-fallback');
-    const pdfPath = 'resume.pdf';
+    const pdfPath = '../assets/resume.pdf';
     
     resumeButtons.forEach(button => {
         button.addEventListener('click', (e) => {
@@ -733,4 +733,49 @@ document.addEventListener('DOMContentLoaded', function() {
             console.warn(`Essential element missing: ${selector}`);
         }
     });
+});
+
+// Disable right-click context menu
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+    return false;
+});
+
+// Disable common developer shortcuts
+document.addEventListener('keydown', function(e) {
+    // Disable F12 (Developer Tools)
+    if (e.key === 'F12') {
+        e.preventDefault();
+        return false;
+    }
+    
+    // Disable Ctrl+Shift+I (Developer Tools)
+    if (e.ctrlKey && e.shiftKey && e.key === 'I') {
+        e.preventDefault();
+        return false;
+    }
+    
+    // Disable Ctrl+Shift+C (Inspect Element)  
+    if (e.ctrlKey && e.shiftKey && e.key === 'C') {
+        e.preventDefault();
+        return false;
+    }
+    
+    // Disable Ctrl+U (View Source)
+    if (e.ctrlKey && e.key === 'u') {
+        e.preventDefault();
+        return false;
+    }
+    
+    // Disable Ctrl+Shift+J (Console)
+    if (e.ctrlKey && e.shiftKey && e.key === 'J') {
+        e.preventDefault();
+        return false;
+    }
+});
+
+// Disable drag and drop
+document.addEventListener('dragstart', function(e) {
+    e.preventDefault();
+    return false;
 });

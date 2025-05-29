@@ -423,13 +423,13 @@ body {
 
 .image-container {
     position: relative;
-    width: 280px;
-    height: 280px;
+    width: 430px;
+    height: 430px;
 }
 
 .photo-frame {
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: var(--shadow-xl);
