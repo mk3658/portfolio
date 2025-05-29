@@ -596,7 +596,7 @@ function initPDFViewer() {
     const closeButton = document.querySelector('#pdfModal .modal-close');
     const pdfViewer = document.getElementById('pdfViewer');
     const pdfFallback = document.querySelector('.pdf-fallback');
-    const pdfPath = '../assets/resume.pdf';
+    const pdfPath = './assets/resume.pdf';
     
     resumeButtons.forEach(button => {
         button.addEventListener('click', (e) => {
