@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minh K. Quan - AI Research Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Minh K. Quan - PhD Researcher specializing in Privacy-Preserving AI, Federated Learning, and Quantum-Inspired Algorithms">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">MKQ</span>
+                <span class="logo-subtitle">Research</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#research" class="nav-link">Research</a></li>
+                <li><a href="#publications" class="nav-link">Publications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#" class="nav-link resume-link" id="resumeBtn">
+                    <i class="fas fa-download"></i> Resume
+                </a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Original sections (will be hidden and used as templates) -->
+    <section id="hero" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge">
+                        <span>PhD Candidate • AI Researcher</span>
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="title-main">Minh K. Quan</span>
+                        <span class="title-gradient">Privacy-Preserving AI</span>
+                    </h1>
+                    <p class="hero-description">
+                        Investigating intelligent systems that learn collaboratively while protecting privacy. 
+                        Specializing in <strong>Federated Learning</strong>, <strong>Quantum-Inspired Algorithms</strong>, 
+                        and <strong>Privacy-Preserving Technologies</strong>.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#research" class="btn btn-primary">
+                            <i class="fas fa-microscope"></i>
+                            Explore Research
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-envelope"></i>
+                            Get In Touch
+                        </a>
+                        <button class="btn btn-secondary" id="heroResumeBtn">
+                            <i class="fas fa-file-pdf"></i>
+                            View CV
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <div class="photo-frame">
+                            <div class="photo-placeholder">
+                                <img src="avatar.jpg" alt="Minh K. Quan" width="100%"/>
+                            </div>
+                        </div>
+                        <div class="floating-elements">
+                            <div class="float-icon ai-icon">🤖</div>
+                            <div class="float-icon security-icon">🔐</div>
+                            <div class="float-icon quantum-icon">⚛️</div>
+                            <div class="float-icon network-icon">🌐</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Bridging cutting-edge AI research with real-world privacy protection</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-intro">
+                    <div class="intro-text">
+                        <p>
+                            I'm a passionate AI researcher pursuing my PhD at <strong>Deakin University</strong>, 
+                            specializing in privacy-preserving machine learning systems. My work focuses on enabling 
+                            AI models to learn collaboratively across distributed environments while maintaining 
+                            strict privacy guarantees.
+                        </p>
+                        <p>
+                            With a background spanning from Vietnam's dynamic tech ecosystem to Australia's 
+                            world-class research institutions, I bring a unique perspective to solving complex 
+                            challenges in AI ethics and security.
+                        </p>
+                    </div>
+                    <div class="achievements">
+                        <h3>Key Achievements</h3>
+                        <ul>
+                            <li>ARC Industrial Transformation Postgraduate Research Scholarship recipient</li>
+                            <li>Exemplary Reviewer Award from IEEE Open Journal of Communications Society in 2023</li>
+                            <li>Research featured in IEEE publications and international venues</li>
+                            <li>A dedicated IEEE Communications Society reviewer of over 25 papers</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="research" class="research-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Research Focus</h2>
+                <p class="section-subtitle">Advancing the frontier of privacy-preserving artificial intelligence</p>
+            </div>
+            
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>Federated Learning</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Developing distributed learning systems that enable multiple parties to 
+                            collaboratively train machine learning models without sharing raw data, 
+                            ensuring privacy while maintaining model performance.
+                        </p>
+                        <div class="card-tags">
+                            <span class="tag">Distributed ML</span>
+                            <span class="tag">Privacy</span>
+                            <span class="tag">Collaboration</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="research-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Privacy-Preserving AI</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Creating AI systems that maintain high performance while protecting user privacy 
+                            through advanced cryptographic techniques, differential privacy, and secure 
+                            multi-party computation protocols.
+                        </p>
+                        <div class="card-tags">
+                            <span class="tag">Cryptography</span>
+                            <span class="tag">Differential Privacy</span>
+                            <span class="tag">Ethics</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="research-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-atom"></i>
+                        </div>
+                        <h3>Quantum-Inspired Algorithms</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Leveraging quantum computing principles to enhance classical machine learning 
+                            algorithms, improving optimization efficiency and enabling new approaches 
+                            to complex computational problems.
+                        </p>
+                        <div class="card-tags">
+                            <span class="tag">Quantum Computing</span>
+                            <span class="tag">Optimization</span>
+                            <span class="tag">Innovation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="publications-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Recent Publications</h2>
+                <p class="section-subtitle">Contributing to the scientific community through peer-reviewed research</p>
+            </div>
+    
+            <div class="publications-list" id="publicationsList">
+                <div class="publication-header">
+                    <div class="header-item pub-year-header">Year</div>
+                    <div class="header-item pub-title-header">Title</div>
+                </div>
+    
+                <article class="publication-item">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Federated Learning for Cyber Physical Systems: A Comprehensive Survey</h3>
+                        <p class="pub-authors">Minh K Quan, Pubudu N Pathirana, Mayuri Wijayasundara, Sujeeva Setunge, Dinh C Nguyen, Christopher G Brinton, David J Love, H Vincent Poor</p>
+                        <p class="pub-venue">IEEE Communications Surveys & Tutorials</p>
+                    </div>
+                </article>
+    
+                <article class="publication-item">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Quantum-Inspired Genetic Algorithm for Robust Source Separation in Smart City Acoustics</h3>
+                        <p class="pub-authors">Minh K Quan, Mayuri Wijayasundara, Sujeeva Setunge, Pubudu N Pathirana</p>
+                        <p class="pub-venue">IEEE International Conference on Communications 2025 (ICC2025)</p>
+                    </div>
+                </article>
+    
+                <article class="publication-item">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Privacy and Fairness in Machine Learning: A Survey</h3>
+                        <p class="pub-authors">Sina Shaham, Arash Hajisafi, Minh K Quan, Dinh C Nguyen, Bhaskar Krishnamachari, Charith Peris, Gabriel Ghinita, Cyrus Shahabi, Pubudu N Pathirana</p>
+                        <p class="pub-venue">IEEE Transactions on Artificial Intelligence</p>
+                    </div>
+                </article>
+    
+                <article class="publication-item">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Quantum-Enhanced Transformers for Robust Acoustic Scene Classification in IoT Environments</h3>
+                        <p class="pub-authors">Minh K Quan, Mayuri Wijayasundara, Sujeeva Setunge, Pubudu N Pathirana</p>
+                        <p class="pub-venue">International Conference on Computing, Networking and Communications (ICNC)</p>
+                    </div>
+                </article>
+    
+                <article class="publication-item">
+                    <div class="pub-year">2024</div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Towards privacy-preserving waste classification in the Internet of Things</h3>
+                        <p class="pub-authors">Minh K Quan, Dinh C Nguyen, Van-Dinh Nguyen, Mayuri Wijayasundara, Sujeeva Setunge, Pubudu N Pathirana</p>
+                        <p class="pub-venue">IEEE Internet of Things Journal</p>
+                    </div>
+                </article>
+    
+                <article class="publication-item">
+                    <div class="pub-year">2023</div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">HierSFL: Local differential privacy-aided split federated learning in mobile edge computing</h3>
+                        <p class="pub-authors">Minh K Quan, Dinh C Nguyen, Van-Dinh Nguyen, Mayuri Wijayasundara, Sujeeva Setunge, Pubudu N Pathirana</p>
+                        <p class="pub-venue">2023 IEEE Virtual Conference on Communications (VCC)</p>
+                    </div>
+                </article>
+    
+                <article class="publication-item">
+                    <div class="pub-year">2023</div>
+                    <div class="pub-content">
+                        <h3 class="pub-title">Holistic survey of privacy and fairness in machine learning</h3>
+                        <p class="pub-authors">Sina Shaham, Arash Hajisafi, Minh K Quan, Dinh C Nguyen, Bhaskar Krishnamachari, Charith Peris, Gabriel Ghinita, Cyrus Shahabi, Pubudu N Pathirana</p>
+                        <p class="pub-venue">IEEE Transactions on Artificial Intelligence</p>
+                    </div>
+                </article>
+    
+            </div>
+    
+            <div class="pub-cta">
+                <a href="https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID&hl=en" target="_blank" class="btn btn-outline">
+                    <i class="fas fa-graduation-cap"></i>
+                    View All Publications (Google Scholar)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Collaborate</h2>
+                <p class="section-subtitle">Open to research collaborations, speaking opportunities, and meaningful conversations</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-text">
+                        <p>
+                            I'm always excited to connect with fellow researchers, industry professionals, 
+                            and anyone passionate about the ethical development of AI technologies. 
+                            Whether you're interested in collaboration, have questions about my research, 
+                            or simply want to discuss the future of privacy-preserving AI.
+                        </p>
+                    </div>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:m.quan@deakin.edu.au" class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-text">
+                                <span class="method-label">Email</span>
+                                <span class="method-value">m.quan@deakin.edu.au</span>
+                            </div>
+                        </a>
+                        
+                        <a href="https://linkedin.com/in/minh-k-quan-61bba4149" target="_blank" class="contact-method">
+                            <div class="method-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="method-text">
+                                <span class="method-label">LinkedIn</span>
+                                <span class="method-value">Professional Network</span>
+                            </div>
+                        </a>
+                        
+                        <a href="https://github.com/mk3658" target="_blank" class="contact-method">
+                            <div class="method-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="method-text">
+                                <span class="method-label">GitHub</span>
+                                <span class="method-value">Code & Projects</span>
+                            </div>
+                        </a>
+
+                        <a href="https://www.webofscience.com/wos/author/record/GRJ-1428-2022" target="_blank" class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-microscope"></i>
+                            </div>
+                            <div class="method-text">
+                                <span class="method-label">Web of Science</span>
+                                <span class="method-value">Research Profile</span>
+                            </div>
+                        </a>
+
+                        <a href="https://orcid.org/0000-0003-1023-7733" target="_blank" class="contact-method">
+                            <div class="method-icon">
+                                <i class="fab fa-orcid"></i>
+                            </div>
+                            <div class="method-text">
+                                <span class="method-label">ORCID</span>
+                                <span class="method-value">0000-0003-1023-7733</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-cta">
+                    <div class="cta-card">
+                        <h3>Ready to Connect?</h3>
+                        <p>Let's discuss how we can advance privacy-preserving AI together.</p>
+                        <div class="cta-actions">
+                            <a href="mailto:m.quan@deakin.edu.au" class="btn btn-primary">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </a>
+                            <button class="btn btn-outline" id="contactResumeBtn">
+                                <i class="fas fa-eye"></i>
+                                View Resume
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <span class="logo-text">MKQ</span>
+                        <span class="logo-subtitle">Research</span>
+                    </div>
+                    <p class="footer-text">
+                        Advancing privacy-preserving AI for a more secure and ethical digital future.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Research Areas</h4>
+                        <ul>
+                            <li><a href="#research">Federated Learning</a></li>
+                            <li><a href="#research">Privacy-Preserving AI</a></li>
+                            <li><a href="#research">Quantum-Inspired Algorithms</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="mailto:m.quan@deakin.edu.au">Email</a></li>
+                            <li><a href="https://linkedin.com/in/minh-k-quan-61bba4149" target="_blank">LinkedIn</a></li>
+                            <li><a href="https://github.com/mk3658" target="_blank">GitHub</a></li>
+                            <li><a href="https://www.webofscience.com/wos/author/record/GRJ-1428-2022" target="_blank">Web of Science</a></li>
+                            <li><a href="https://orcid.org/0000-0003-1023-7733" target="_blank">ORCID</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Minh K. Quan. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- PDF Viewer Modal -->
+    <div id="pdfModal" class="modal">
+        <div class="modal-content pdf-modal">
+            <div class="modal-header">
+                <h3>Resume - Minh K. Quan</h3>
+                <div class="pdf-controls">
+                    <button class="modal-close">&times;</button>
+                </div>
+            </div>
+            <div class="modal-body pdf-body">
+                <div class="pdf-container">
+                    <iframe id="pdfViewer" src="" type="application/pdf" width="100%" height="100%"></iframe>
+                    <div class="pdf-fallback" style="display: none;">
+                        <div class="fallback-content">
+                            <i class="fas fa-file-pdf"></i>
+                            <h4>PDF Viewer Not Supported</h4>
+                            <p>Your browser doesn't support embedded PDF viewing.</p>
+                            <a href="resume.pdf" target="_blank" class="btn btn-primary">
+                                <i class="fas fa-external-link-alt"></i> Open in New Tab
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
